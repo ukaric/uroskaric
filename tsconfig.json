@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "lib": ["dom", "es2015", "es2017"],
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["./components/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "build", "scripts", "jest"]
+}
