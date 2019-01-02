@@ -1,0 +1,13 @@
+{
+  "name": "uroskaric",
+  "version": "1.0.0",
+  "description": "Personal website and blog about random stuff.",
+  "main": "index.js",
+  "repository": "git@github.com:ukaric/uroskaric.git",
+  "author": {
+    "name": "Uros Karic",
+    "email": "hello@uroskaric.me",
+    "url": "https://www.uroskaric.me"
+  },
+  "license": "MIT"
+}
